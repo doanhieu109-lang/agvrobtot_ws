@@ -1,0 +1,5 @@
+In file included from [01m[K/home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688/src/agv_hardware.cpp:1[m[K:
+[01m[K/home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688/include/anviet_688/agv_hardware.hpp:41:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   41 |   RCLCPP_SHARED_PTR_DEFINITIONS(AGVHardware)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+      |                                             [31m[K-[m[K

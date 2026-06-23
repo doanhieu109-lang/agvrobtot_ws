@@ -1,0 +1,88 @@
+[0.036s] Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anviet_robot/agvrobot_ws/install/anviet_688
+[0.404s] -- The C compiler identification is GNU 11.4.0
+[0.729s] -- The CXX compiler identification is GNU 11.4.0
+[0.767s] -- Detecting C compiler ABI info
+[1.086s] -- Detecting C compiler ABI info - done
+[1.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.114s] -- Detecting C compile features
+[1.116s] -- Detecting C compile features - done
+[1.129s] -- Detecting CXX compiler ABI info
+[1.472s] -- Detecting CXX compiler ABI info - done
+[1.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.499s] -- Detecting CXX compile features
+[1.501s] -- Detecting CXX compile features - done
+[1.532s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.235s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.827s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[3.220s] -- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.475s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.524s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.593s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.824s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.850s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.030s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.274s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.288s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.346s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.359s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.392s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.507s] -- Looking for pthread.h
+[5.845s] -- Looking for pthread.h - found
+[5.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.185s] -- Found Threads: TRUE  
+[6.741s] -- Configuring done
+[6.819s] -- Generating done
+[6.838s] -- Build files have been written to: /home/anviet_robot/agvrobot_ws/build/anviet_688
+[6.871s] Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anviet_robot/agvrobot_ws/install/anviet_688
+[6.880s] Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+[7.083s] [ 50%] [32mBuilding CXX object CMakeFiles/agv_hardware.dir/src/agv_hardware.cpp.o[0m
+[11.704s] In file included from [01m[K/home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688/src/agv_hardware.cpp:1[m[K:
+[11.705s] [01m[K/home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688/include/anviet_688/agv_hardware.hpp:41:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.705s]    41 |   RCLCPP_SHARED_PTR_DEFINITIONS(AGVHardware)[01;35m[K;[m[K
+[11.705s]       |                                             [01;35m[K^[m[K
+[11.706s]       |                                             [31m[K-[m[K
+[21.691s] [100%] [32m[1mLinking CXX shared library libagv_hardware.so[0m
+[22.680s] [100%] Built target agv_hardware
+[22.717s] Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+[22.757s] Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688
+[22.782s] -- Install configuration: ""
+[22.784s] -- Execute custom install script
+[22.786s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688//anviet_688_hardware.xml
+[22.816s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/lib/libagv_hardware.so
+[22.848s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/anviet_688_hardware.xml
+[22.850s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml
+[22.881s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml
+[22.911s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml
+[22.941s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz
+[22.973s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro
+[23.007s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro
+[23.037s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro
+[23.068s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro
+[23.099s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro
+[23.129s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro
+[23.162s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py
+[23.194s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py
+[23.224s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py
+[23.256s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/worlds/empty.world
+[23.287s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/package_run_dependencies/anviet_688
+[23.320s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/parent_prefix_path/anviet_688
+[23.352s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.sh
+[23.383s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.dsv
+[23.415s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.sh
+[23.446s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.dsv
+[23.477s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.bash
+[23.510s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.sh
+[23.542s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.zsh
+[23.573s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.dsv
+[23.604s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.dsv
+[23.636s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/packages/anviet_688
+[23.668s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/anviet_688
+[23.701s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config.cmake
+[23.732s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config-version.cmake
+[23.763s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.xml
+[23.800s] Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688

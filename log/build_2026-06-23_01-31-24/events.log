@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.001630] (-) JobUnselected: {'identifier': 'lds006_python_driver'}
+[0.002305] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003129] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.005026] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.006031] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.006621] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.007161] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.007747] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.008627] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.009157] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.009451] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.009738] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.010692] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.013853] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.015481] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.015815] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.016036] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.018139] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.018667] (anviet_688) JobQueued: {'identifier': 'anviet_688', 'dependencies': OrderedDict()}
+[0.019129] (anviet_688) JobStarted: {'identifier': 'anviet_688'}
+[0.071309] (anviet_688) JobProgress: {'identifier': 'anviet_688', 'progress': 'cmake'}
+[0.078393] (anviet_688) JobProgress: {'identifier': 'anviet_688', 'progress': 'build'}
+[0.081539] (anviet_688) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anviet_robot/agvrobot_ws/build/anviet_688', '--', '-j4', '-l4'], 'cwd': '/home/anviet_robot/agvrobot_ws/build/anviet_688', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anviet_robot'), ('SSH_CLIENT', '192.168.0.109 47634 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/anviet_robot'), ('OLDPWD', '/home/anviet_robot'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anviet_robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/anviet_robot/.local/bin:/home/anviet_robot/bin:/home/anviet_robot/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/anviet_robot/agvrobot_ws/build/anviet_688'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 47634 192.168.0.110 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098812] (-) TimerEvent: {}
+[0.199490] (-) TimerEvent: {}
+[0.300190] (-) TimerEvent: {}
+[0.343105] (anviet_688) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400472] (-) TimerEvent: {}
+[0.501248] (-) TimerEvent: {}
+[0.602122] (-) TimerEvent: {}
+[0.702851] (-) TimerEvent: {}
+[0.804084] (-) TimerEvent: {}
+[0.905034] (-) TimerEvent: {}
+[1.005879] (-) TimerEvent: {}
+[1.107873] (-) TimerEvent: {}
+[1.192557] (anviet_688) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.208049] (-) TimerEvent: {}
+[1.297794] (anviet_688) StdoutLine: {'line': b'-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.308215] (-) TimerEvent: {}
+[1.408897] (-) TimerEvent: {}
+[1.509582] (-) TimerEvent: {}
+[1.610723] (-) TimerEvent: {}
+[1.640254] (anviet_688) StdoutLine: {'line': b'-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.710917] (-) TimerEvent: {}
+[1.800104] (anviet_688) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.817836] (-) TimerEvent: {}
+[1.825120] (anviet_688) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.872851] (anviet_688) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.918051] (-) TimerEvent: {}
+[1.942232] (anviet_688) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.011097] (anviet_688) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.018504] (-) TimerEvent: {}
+[2.120758] (-) TimerEvent: {}
+[2.226026] (-) TimerEvent: {}
+[2.326799] (-) TimerEvent: {}
+[2.428401] (-) TimerEvent: {}
+[2.529404] (-) TimerEvent: {}
+[2.630632] (-) TimerEvent: {}
+[2.731548] (-) TimerEvent: {}
+[2.832420] (-) TimerEvent: {}
+[2.933324] (-) TimerEvent: {}
+[3.035791] (-) TimerEvent: {}
+[3.136875] (-) TimerEvent: {}
+[3.144187] (anviet_688) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.154190] (anviet_688) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.237580] (-) TimerEvent: {}
+[3.262797] (anviet_688) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.308752] (anviet_688) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.337625] (-) TimerEvent: {}
+[3.389110] (anviet_688) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.422649] (anviet_688) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.438307] (-) TimerEvent: {}
+[3.459594] (anviet_688) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.538501] (-) TimerEvent: {}
+[3.639362] (-) TimerEvent: {}
+[3.740241] (-) TimerEvent: {}
+[3.841056] (-) TimerEvent: {}
+[3.942163] (-) TimerEvent: {}
+[4.020273] (anviet_688) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.042297] (-) TimerEvent: {}
+[4.122561] (anviet_688) StdoutLine: {'line': b'-- Generating done\n'}
+[4.142492] (-) TimerEvent: {}
+[4.147559] (anviet_688) StdoutLine: {'line': b'-- Build files have been written to: /home/anviet_robot/agvrobot_ws/build/anviet_688\n'}
+[4.242661] (-) TimerEvent: {}
+[4.262478] (anviet_688) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_hardware\x1b[0m\n'}
+[4.342839] (-) TimerEvent: {}
+[4.433560] (anviet_688) StdoutLine: {'line': b'[100%] Built target agv_hardware\n'}
+[4.443006] (-) TimerEvent: {}
+[4.480444] (anviet_688) CommandEnded: {'returncode': 0}
+[4.486350] (anviet_688) JobProgress: {'identifier': 'anviet_688', 'progress': 'install'}
+[4.516724] (anviet_688) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anviet_robot/agvrobot_ws/build/anviet_688'], 'cwd': '/home/anviet_robot/agvrobot_ws/build/anviet_688', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anviet_robot'), ('SSH_CLIENT', '192.168.0.109 47634 22'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/anviet_robot'), ('OLDPWD', '/home/anviet_robot'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anviet_robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/anviet_robot/.local/bin:/home/anviet_robot/bin:/home/anviet_robot/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/anviet_robot/agvrobot_ws/build/anviet_688'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 47634 192.168.0.110 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.543215] (-) TimerEvent: {}
+[4.551808] (anviet_688) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.553536] (anviet_688) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.554882] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688//anviet_688_hardware.xml\n'}
+[4.556478] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/lib/libagv_hardware.so\n'}
+[4.557573] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/anviet_688_hardware.xml\n'}
+[4.559789] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml\n'}
+[4.560682] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml\n'}
+[4.561321] (anviet_688) StdoutLine: {'line': b'-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params.yaml\n'}
+[4.593067] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/slam_toolbox_online.yaml\n'}
+[4.593843] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml\n'}
+[4.594789] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz\n'}
+[4.596751] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro\n'}
+[4.597552] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro\n'}
+[4.598507] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro\n'}
+[4.599399] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro\n'}
+[4.600293] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro\n'}
+[4.601359] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro\n'}
+[4.603800] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py\n'}
+[4.605891] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py\n'}
+[4.607318] (anviet_688) StdoutLine: {'line': b'-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/navigation_anviet.launch.py\n'}
+[4.640122] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py\n'}
+[4.641647] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/worlds/empty.world\n'}
+[4.645206] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/package_run_dependencies/anviet_688\n'}
+[4.645877] (-) TimerEvent: {}
+[4.647035] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/parent_prefix_path/anviet_688\n'}
+[4.650095] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.sh\n'}
+[4.650940] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.dsv\n'}
+[4.651545] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.sh\n'}
+[4.652080] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.dsv\n'}
+[4.652706] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.bash\n'}
+[4.653160] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.sh\n'}
+[4.654252] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.zsh\n'}
+[4.654859] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.dsv\n'}
+[4.655428] (anviet_688) StdoutLine: {'line': b'-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.dsv\n'}
+[4.690067] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/packages/anviet_688\n'}
+[4.691456] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/anviet_688\n'}
+[4.692548] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config.cmake\n'}
+[4.693413] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config-version.cmake\n'}
+[4.695512] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.xml\n'}
+[4.697848] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py\n'}
+[4.698937] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py\n'}
+[4.700015] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/navigation_anviet.launch.py\n'}
+[4.701017] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py\n'}
+[4.703617] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml\n'}
+[4.707410] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml\n'}
+[4.708774] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params.yaml\n'}
+[4.709851] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/slam_toolbox_online.yaml\n'}
+[4.711057] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml\n'}
+[4.711974] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz\n'}
+[4.714088] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro\n'}
+[4.715295] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro\n'}
+[4.719829] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro\n'}
+[4.720502] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro\n'}
+[4.722409] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro\n'}
+[4.723297] (anviet_688) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro\n'}
+[4.728837] (anviet_688) CommandEnded: {'returncode': 0}
+[4.746249] (-) TimerEvent: {}
+[4.847381] (-) TimerEvent: {}
+[4.865352] (anviet_688) JobEnded: {'identifier': 'anviet_688', 'rc': 0}
+[4.871264] (-) EventReactorShutdown: {}

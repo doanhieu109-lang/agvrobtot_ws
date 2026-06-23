@@ -1,0 +1,63 @@
+[0.090s] Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anviet_robot/agvrobot_ws/install/lds006_python_driver:/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+[0.740s] [100%] Built target agv_hardware
+[0.811s] Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anviet_robot/agvrobot_ws/install/lds006_python_driver:/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+[0.888s] Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anviet_robot/agvrobot_ws/install/lds006_python_driver:/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688
+[0.940s] -- Install configuration: ""
+[0.948s] -- Execute custom install script
+[0.948s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688//anviet_688_hardware.xml
+[0.952s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/lib/libagv_hardware.so
+[0.952s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/anviet_688_hardware.xml
+[0.955s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml
+[0.956s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml
+[0.957s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params.yaml
+[0.958s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params_backup.yaml
+[0.958s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params_backup_old.yaml
+[1.021s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/slam_toolbox_online.yaml
+[1.021s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml
+[1.022s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz
+[1.024s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro
+[1.025s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro
+[1.026s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro
+[1.027s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro
+[1.028s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro
+[1.029s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro
+[1.031s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py
+[1.032s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py
+[1.033s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/navigation_anviet.launch.py
+[1.034s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py
+[1.035s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/worlds/empty.world
+[1.037s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/package_run_dependencies/anviet_688
+[1.040s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/parent_prefix_path/anviet_688
+[1.042s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.sh
+[1.049s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.dsv
+[1.051s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.sh
+[1.052s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.dsv
+[1.053s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.bash
+[1.054s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.sh
+[1.055s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.zsh
+[1.056s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.dsv
+[1.056s] -- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.dsv
+[1.123s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/packages/anviet_688
+[1.124s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/anviet_688
+[1.125s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config.cmake
+[1.126s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config-version.cmake
+[1.127s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.xml
+[1.129s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py
+[1.130s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py
+[1.131s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/navigation_anviet.launch.py
+[1.132s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py
+[1.134s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml
+[1.135s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml
+[1.136s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params.yaml
+[1.136s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params_backup.yaml
+[1.137s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/nav2_params_backup_old.yaml
+[1.139s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/slam_toolbox_online.yaml
+[1.141s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml
+[1.152s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz
+[1.153s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro
+[1.153s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro
+[1.154s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro
+[1.154s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro
+[1.155s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro
+[1.156s] -- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro
+[1.163s] Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anviet_robot/agvrobot_ws/install/lds006_python_driver:/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688

@@ -1,0 +1,4 @@
+Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anviet_robot/agvrobot_ws/build/anviet_688 -- -j4 -l4
+Invoking command in '/home/anviet_robot/agvrobot_ws/build/anviet_688': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688
+Invoked command in '/home/anviet_robot/agvrobot_ws/build/anviet_688' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anviet_robot/agvrobot_ws/build/anviet_688

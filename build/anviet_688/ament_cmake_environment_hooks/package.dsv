@@ -1,0 +1,4 @@
+source;share/anviet_688/local_setup.bash
+source;share/anviet_688/local_setup.dsv
+source;share/anviet_688/local_setup.sh
+source;share/anviet_688/local_setup.zsh

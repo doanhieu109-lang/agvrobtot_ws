@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anviet_robot/agvrobot_ws/build/anviet_688
+[ 50%] [32mBuilding CXX object CMakeFiles/agv_hardware.dir/src/agv_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libagv_hardware.so[0m
+[100%] Built target agv_hardware
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688//anviet_688_hardware.xml
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/lib/libagv_hardware.so
+-- Up-to-date symlink: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/anviet_688_hardware.xml
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/gz_bridge.yaml
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/my_controllers.yaml
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/twist_mux.yaml
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/config/view_bot.rviz
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/gazebo_control.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/inertial_macros.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/lidar.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot.urdf.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/robot_core.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/description/ros2_control.xacro
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_robot.launch.py
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/launch_sim.launch.py
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/launch/rsp.launch.py
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/worlds/empty.world
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/package_run_dependencies/anviet_688
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/parent_prefix_path/anviet_688
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.sh
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/ament_prefix_path.dsv
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.sh
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/environment/path.dsv
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.bash
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.sh
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.zsh
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/local_setup.dsv
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.dsv
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/packages/anviet_688
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/anviet_688
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config.cmake
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/cmake/anviet_688Config-version.cmake
+-- Symlinking: /home/anviet_robot/agvrobot_ws/install/anviet_688/share/anviet_688/package.xml

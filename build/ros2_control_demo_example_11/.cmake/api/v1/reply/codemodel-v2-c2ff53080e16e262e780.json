@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5b47a4432d3d2c0c3aa5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_control_demo_example_11",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_11-cc311fb9da74c2b72c81.json",
+					"name" : "ros2_control_demo_example_11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_11_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_11_uninstall-793f7c09d484287fbb43.json",
+					"name" : "ros2_control_demo_example_11_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c18c270531dfde70de27.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anviet_robot/agvrobot_ws/build/ros2_control_demo_example_11",
+		"source" : "/home/anviet_robot/agvrobot_ws/src/ros2_control_demos/example_11"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/anviet_robot/agvrobot_ws/src/agvdev/src/diffdrive_arduino/description/launch/view_robot.launch.py

@@ -1,0 +1,1 @@
+/home/anviet_robot/agvrobot_ws/src/ros2_control_demos/example_9/bringup/launch/rrbot.launch.py

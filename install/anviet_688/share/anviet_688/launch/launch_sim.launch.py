@@ -1,0 +1,1 @@
+/home/anviet_robot/agvrobot_ws/src/agvdev/src/anviet_688/launch/launch_sim.launch.py

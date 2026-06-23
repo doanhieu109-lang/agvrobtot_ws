@@ -1,0 +1,3 @@
+[console_scripts]
+lds006_node = lds006_python_driver.lds006_node:main
+
